@@ -17,6 +17,7 @@
     width: 355px; 
     padding: 50px; 
     margin: 10px; 
+    border-radius: 25px; 
 }
 
 .center {
@@ -32,4 +33,5 @@
     border-color:pink; 
     max-width: 20%; 
     margin: 10px; 
+    border-radius: 50px; 
 }
