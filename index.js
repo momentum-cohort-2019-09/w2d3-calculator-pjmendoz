@@ -17,7 +17,6 @@ const decimal = document.querySelector("#decimal")
 const equal = document.querySelector("#equal")
 const plus = document.querySelector("#plus")
 
-
 decimal.addEventListener('click', function() {
     screen.innerText='.'
 })
@@ -85,6 +84,4 @@ n8.addEventListener('click', function() {
 n9.addEventListener('click', function() {
     screen.innerText='9'
 })
-
-// const plus = document.querySelector("#plus")
 
