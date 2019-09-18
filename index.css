@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -9,11 +10,10 @@
     margin: 10px auto; 
     width: 500px; 
     height: 400px; 
-
 }
 
 .screen {
-    background-color: purple; 
+    background-color: rgb(119, 59, 145); 
     width: 355px; 
     padding: 50px; 
     margin: 10px; 
@@ -25,13 +25,26 @@
     justify-content: space-between; 
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-012.jpg"); 
+
 }
 
 .button {
     padding: 50px; 
     border-style: solid;
     border-color:pink; 
+    border-width: 2px; 
     max-width: 20%; 
     margin: 10px; 
     border-radius: 50px; 
+    font-size: 20pt; 
+    font-weight: 20pt; 
+    color: pink; 
+}
+
+.button:hover {
+    background:linear-gradient(rgb(236, 202, 202 , 0.5),rgb(236, 202, 202, 0.5)),url(https://static.vecteezy.com/system/resources/previews/000/277/910/non_2x/rose-gold-glitter-background-vector.jpg); 
+    color: white; 
+    font-weight: 20pt;
+    border-radius: 50px;  
 }
