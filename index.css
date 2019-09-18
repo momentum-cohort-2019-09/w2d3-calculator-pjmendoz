@@ -5,16 +5,19 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    background-color: rgb(211, 192, 253); 
+}
 .container {
     position: center; 
-    margin: 10px auto; 
-    width: 500px; 
-    height: 400px; 
+    margin: 50px auto; 
+    max-width: 400px; 
+    max-height: 300px; 
 }
 
 .screen {
     background-color: rgb(119, 59, 145); 
-    width: 355px; 
+    width: 280px; 
     padding: 50px; 
     margin: 10px; 
     border-radius: 25px; 
@@ -26,21 +29,25 @@
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-012.jpg"); 
+    grid-gap: 0;
+    border-radius: 25px; 
+    border-color: pink;
+    border-width: 5px; 
+    border-style: solid; 
 
 }
 
 .button {
-    padding: 50px; 
+    padding: 8%; 
     border-style: solid;
     border-color:pink; 
     border-width: 2px; 
-    max-width: 20%; 
-    margin: 10px; 
-    border-radius: 50px; 
-    font-size: 20pt; 
-    font-weight: 20pt; 
+    margin: 7px 3px; 
+    border-radius: 50%; 
+    font-size: 18pt; 
+    font-weight: bold;  
     color: pink; 
-    outline: none; 
+    outline: none;
 }
 
 .button:hover {
