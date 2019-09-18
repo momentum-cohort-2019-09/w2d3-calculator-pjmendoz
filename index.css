@@ -21,6 +21,11 @@ body {
     padding: 50px; 
     margin: 10px; 
     border-radius: 25px; 
+    color: white; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
 }
 
 .center {
@@ -53,5 +58,5 @@ body {
     background:linear-gradient(rgb(236, 202, 202 , 0.5),rgb(236, 202, 202, 0.5)),url(https://static.vecteezy.com/system/resources/previews/000/277/910/non_2x/rose-gold-glitter-background-vector.jpg); 
     color: white; 
     font-weight: 20pt;
-    border-radius: 50px;  
+    border-radius: 50%;  
 }
