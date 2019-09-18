@@ -27,7 +27,6 @@ body {
     display: flex; 
     justify-content: space-between; 
     flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
     background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-012.jpg"); 
     grid-gap: 0;
     border-radius: 25px; 

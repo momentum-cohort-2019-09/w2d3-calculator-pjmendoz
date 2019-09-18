@@ -1,5 +1,5 @@
 // const C = document.querySelector('#clears')
-//     button.addEventListener('click', function())
+//     button.addEventListener('click', function(event))
 const seven = document.querySelector("#7")
 console.log(7)
 // const screen = document.querySelector("#screen")
