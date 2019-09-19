@@ -17,6 +17,9 @@ const decimal = document.querySelector("#decimal")
 const equal = document.querySelector("#equal")
 const plus = document.querySelector("#plus")
 const evaluate = document.querySelector('.equalSign');
+const operator = document.querySelector ('.operator')
+const clear = document.querySelector ('.clear')
+const number = document.querySelector('.number')
 
 
 decimal.addEventListener('click', function() {
@@ -25,10 +28,6 @@ decimal.addEventListener('click', function() {
 
 minus.addEventListener('click', function() {
     screen.innerText+='-'
-})
-
-equal.addEventListener('click', function() {
-    screen.innerText+='='
 })
 
 divide.addEventListener('click', function() {
@@ -87,8 +86,7 @@ n9.addEventListener('click', function() {
     screen.innerText+='9'
 })
 
-// evaluate.addEventListener('click', function() {
-// 	// eval(screen.textContent);
-// 	let answer = eval(math);
-// 	screen.textContent = answer;
-// });
+// equal.addEventListener('click', function() {
+
+//     screen.innerText+='='
+// })
