@@ -14,13 +14,18 @@ const three = document.querySelector("#n3")
 const minus = document.querySelector("#minus")
 const zero = document.querySelector("#n0")
 const decimal = document.querySelector("#decimal")
-const equal = document.querySelector("#equal")
+let equal = document.querySelector("#equal")
 const plus = document.querySelector("#plus")
 const evaluate = document.querySelector('.equalSign');
 const operator = document.querySelector ('.operator')
 const clear = document.querySelector ('.clear')
 const number = document.querySelector('.number')
 
+
+equal.addEventListener('click', function() {
+    screen.innerText = eval(screen.innerText);
+    console.log(eval(screen.innerText))
+})
 
 decimal.addEventListener('click', function() {
     screen.innerText+='.'
@@ -86,6 +91,5 @@ n9.addEventListener('click', function() {
     screen.innerText+='9'
 })
 
-equal.addEventListener('click', function() {
-    screen.innerText+='='
-})
+
+
