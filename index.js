@@ -86,7 +86,6 @@ n9.addEventListener('click', function() {
     screen.innerText+='9'
 })
 
-// equal.addEventListener('click', function() {
-
-//     screen.innerText+='='
-// })
+equal.addEventListener('click', function() {
+    screen.innerText+='='
+})
